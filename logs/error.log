@@ -1,1 +1,184 @@
 2017/01/26 13:02:43 [emerg] 14237#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2017/01/26 13:44:36 [warn] 14364#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /home/shreben/nginx/conf/nginx.conf:2
+2017/01/26 14:42:21 [emerg] 14550#0: open() "/home/shreben/nginx/conf/conf/vhosts/backend.conf" failed (2: No such file or directory) in /home/shreben/nginx/conf/nginx.conf:21
+2017/01/26 14:43:16 [emerg] 14554#0: unexpected "}" in /home/shreben/nginx/conf/nginx.conf:24
+2017/01/26 14:44:19 [notice] 14557#0: using the "epoll" event method
+2017/01/26 14:44:19 [notice] 14557#0: nginx/1.10.2
+2017/01/26 14:44:19 [notice] 14557#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) 
+2017/01/26 14:44:19 [notice] 14557#0: OS: Linux 3.10.0-514.2.2.el7.x86_64
+2017/01/26 14:44:19 [notice] 14557#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2017/01/26 14:44:19 [notice] 14558#0: start worker processes
+2017/01/26 14:44:19 [notice] 14558#0: start worker process 14559
+2017/01/26 14:48:34 [error] 14559#0: *1 open() "/home/shreben/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.13:8080"
+2017/01/26 14:48:34 [error] 14559#0: *1 open() "/home/shreben/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.13:8080"
+2017/01/26 14:48:40 [info] 14559#0: *1 no user/password was provided for basic authentication, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:48:47 [error] 14559#0: *1 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:52:24 [notice] 14593#0: signal process started
+2017/01/26 14:52:24 [notice] 14558#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/26 14:52:24 [notice] 14558#0: reconfiguring
+2017/01/26 14:52:24 [notice] 14558#0: using the "epoll" event method
+2017/01/26 14:52:24 [notice] 14558#0: start worker processes
+2017/01/26 14:52:24 [notice] 14558#0: start worker process 14594
+2017/01/26 14:52:24 [notice] 14559#0: gracefully shutting down
+2017/01/26 14:52:24 [notice] 14559#0: exiting
+2017/01/26 14:52:24 [notice] 14559#0: exit
+2017/01/26 14:52:24 [notice] 14558#0: signal 17 (SIGCHLD) received
+2017/01/26 14:52:24 [notice] 14558#0: worker process 14559 exited with code 0
+2017/01/26 14:52:24 [notice] 14558#0: signal 29 (SIGIO) received
+2017/01/26 14:52:29 [error] 14594#0: *2 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:52:44 [info] 14594#0: *2 no user/password was provided for basic authentication, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:52:50 [error] 14594#0: *2 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:53:56 [emerg] 14597#0: invalid number of arguments in "root" directive in /home/shreben/nginx/conf/vhosts/backend.conf:17
+2017/01/26 14:54:55 [notice] 14599#0: signal process started
+2017/01/26 14:54:55 [notice] 14558#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/26 14:54:55 [notice] 14558#0: reconfiguring
+2017/01/26 14:54:55 [notice] 14558#0: using the "epoll" event method
+2017/01/26 14:54:55 [notice] 14558#0: start worker processes
+2017/01/26 14:54:55 [notice] 14558#0: start worker process 14600
+2017/01/26 14:54:55 [notice] 14594#0: gracefully shutting down
+2017/01/26 14:54:55 [notice] 14594#0: exiting
+2017/01/26 14:54:55 [notice] 14594#0: exit
+2017/01/26 14:54:55 [notice] 14558#0: signal 17 (SIGCHLD) received
+2017/01/26 14:54:55 [notice] 14558#0: worker process 14594 exited with code 0
+2017/01/26 14:54:55 [notice] 14558#0: signal 29 (SIGIO) received
+2017/01/26 14:54:59 [error] 14600#0: *3 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:55:02 [error] 14600#0: *3 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:55:30 [info] 14600#0: *3 no user/password was provided for basic authentication, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:55:46 [error] 14600#0: *3 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:56:16 [notice] 14602#0: signal process started
+2017/01/26 14:56:16 [notice] 14558#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/26 14:56:16 [notice] 14558#0: reconfiguring
+2017/01/26 14:56:16 [notice] 14558#0: using the "epoll" event method
+2017/01/26 14:56:16 [notice] 14558#0: start worker processes
+2017/01/26 14:56:16 [notice] 14558#0: start worker process 14603
+2017/01/26 14:56:16 [notice] 14600#0: gracefully shutting down
+2017/01/26 14:56:16 [notice] 14600#0: exiting
+2017/01/26 14:56:16 [notice] 14600#0: exit
+2017/01/26 14:56:16 [notice] 14558#0: signal 17 (SIGCHLD) received
+2017/01/26 14:56:16 [notice] 14558#0: worker process 14600 exited with code 0
+2017/01/26 14:56:16 [notice] 14558#0: signal 29 (SIGIO) received
+2017/01/26 14:56:23 [error] 14603#0: *4 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:56:34 [info] 14603#0: *4 no user/password was provided for basic authentication, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:56:40 [error] 14603#0: *4 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:56:49 [error] 14603#0: *4 open() "/home/shreben/nginx/html/blabla" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /blabla HTTP/1.1", host: "192.168.122.13:8080"
+2017/01/26 14:58:13 [notice] 14605#0: signal process started
+2017/01/26 14:58:13 [notice] 14558#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/26 14:58:13 [notice] 14558#0: reconfiguring
+2017/01/26 14:58:13 [notice] 14558#0: using the "epoll" event method
+2017/01/26 14:58:13 [notice] 14558#0: start worker processes
+2017/01/26 14:58:13 [notice] 14558#0: start worker process 14606
+2017/01/26 14:58:13 [notice] 14603#0: gracefully shutting down
+2017/01/26 14:58:13 [notice] 14603#0: exiting
+2017/01/26 14:58:13 [notice] 14603#0: exit
+2017/01/26 14:58:13 [notice] 14558#0: signal 17 (SIGCHLD) received
+2017/01/26 14:58:13 [notice] 14558#0: worker process 14603 exited with code 0
+2017/01/26 14:58:13 [notice] 14558#0: signal 29 (SIGIO) received
+2017/01/26 14:58:40 [info] 14606#0: *5 no user/password was provided for basic authentication, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:58:44 [error] 14606#0: *5 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:58:57 [error] 14606#0: *5 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:59:02 [info] 14606#0: *5 no user/password was provided for basic authentication, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 14:59:06 [error] 14606#0: *5 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 15:08:39 [error] 14606#0: *6 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 15:09:25 [info] 14606#0: *6 no user/password was provided for basic authentication, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 15:09:43 [error] 14606#0: *6 open() "/home/shreben/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 15:15:42 [notice] 14647#0: signal process started
+2017/01/26 15:15:42 [notice] 14558#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/26 15:15:42 [notice] 14558#0: reconfiguring
+2017/01/26 15:15:42 [notice] 14558#0: using the "epoll" event method
+2017/01/26 15:15:42 [notice] 14558#0: start worker processes
+2017/01/26 15:15:42 [notice] 14558#0: start worker process 14648
+2017/01/26 15:15:42 [notice] 14606#0: gracefully shutting down
+2017/01/26 15:15:42 [notice] 14606#0: exiting
+2017/01/26 15:15:42 [notice] 14606#0: exit
+2017/01/26 15:15:42 [notice] 14558#0: signal 17 (SIGCHLD) received
+2017/01/26 15:15:42 [notice] 14558#0: worker process 14606 exited with code 0
+2017/01/26 15:15:42 [notice] 14558#0: signal 29 (SIGIO) received
+2017/01/26 15:15:49 [info] 14648#0: *7 no user/password was provided for basic authentication, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 15:15:53 [error] 14648#0: *7 open() "/home/shreben/nginx/html/admin" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 15:18:31 [notice] 14651#0: signal process started
+2017/01/26 15:18:31 [notice] 14558#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/26 15:18:31 [notice] 14558#0: reconfiguring
+2017/01/26 15:18:31 [notice] 14558#0: using the "epoll" event method
+2017/01/26 15:18:31 [notice] 14558#0: start worker processes
+2017/01/26 15:18:31 [notice] 14558#0: start worker process 14652
+2017/01/26 15:18:31 [notice] 14648#0: gracefully shutting down
+2017/01/26 15:18:31 [notice] 14648#0: exiting
+2017/01/26 15:18:31 [notice] 14648#0: exit
+2017/01/26 15:18:31 [notice] 14558#0: signal 17 (SIGCHLD) received
+2017/01/26 15:18:31 [notice] 14558#0: worker process 14648 exited with code 0
+2017/01/26 15:18:31 [notice] 14558#0: signal 29 (SIGIO) received
+2017/01/26 15:18:39 [info] 14652#0: *8 no user/password was provided for basic authentication, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 15:18:44 [error] 14652#0: *8 open() "/home/shreben/nginx/admin.html" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 15:19:27 [notice] 14655#0: signal process started
+2017/01/26 15:19:27 [notice] 14558#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/26 15:19:27 [notice] 14558#0: reconfiguring
+2017/01/26 15:19:27 [notice] 14558#0: using the "epoll" event method
+2017/01/26 15:19:27 [notice] 14558#0: start worker processes
+2017/01/26 15:19:27 [notice] 14558#0: start worker process 14656
+2017/01/26 15:19:27 [notice] 14652#0: gracefully shutting down
+2017/01/26 15:19:27 [notice] 14652#0: exiting
+2017/01/26 15:19:27 [notice] 14652#0: exit
+2017/01/26 15:19:27 [notice] 14558#0: signal 17 (SIGCHLD) received
+2017/01/26 15:19:27 [notice] 14558#0: worker process 14652 exited with code 0
+2017/01/26 15:19:27 [notice] 14558#0: signal 29 (SIGIO) received
+2017/01/26 15:19:37 [info] 14656#0: *9 no user/password was provided for basic authentication, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 15:21:13 [notice] 14665#0: signal process started
+2017/01/26 15:21:13 [notice] 14558#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/26 15:21:13 [notice] 14558#0: reconfiguring
+2017/01/26 15:21:13 [notice] 14558#0: using the "epoll" event method
+2017/01/26 15:21:13 [notice] 14558#0: start worker processes
+2017/01/26 15:21:13 [notice] 14558#0: start worker process 14666
+2017/01/26 15:21:13 [notice] 14656#0: gracefully shutting down
+2017/01/26 15:21:13 [notice] 14656#0: exiting
+2017/01/26 15:21:13 [notice] 14656#0: exit
+2017/01/26 15:21:13 [notice] 14558#0: signal 17 (SIGCHLD) received
+2017/01/26 15:21:13 [notice] 14558#0: worker process 14656 exited with code 0
+2017/01/26 15:21:13 [notice] 14558#0: signal 29 (SIGIO) received
+2017/01/26 15:21:20 [info] 14666#0: *10 no user/password was provided for basic authentication, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 15:21:23 [error] 14666#0: *10 open() "/home/shreben/nginx/html/admin.html/admin" failed (20: Not a directory), client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 15:28:00 [notice] 14668#0: signal process started
+2017/01/26 15:28:00 [notice] 14558#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/26 15:28:00 [notice] 14558#0: reconfiguring
+2017/01/26 15:28:00 [notice] 14558#0: using the "epoll" event method
+2017/01/26 15:28:00 [notice] 14558#0: start worker processes
+2017/01/26 15:28:00 [notice] 14558#0: start worker process 14669
+2017/01/26 15:28:00 [notice] 14666#0: gracefully shutting down
+2017/01/26 15:28:00 [notice] 14666#0: exiting
+2017/01/26 15:28:00 [notice] 14666#0: exit
+2017/01/26 15:28:00 [notice] 14558#0: signal 17 (SIGCHLD) received
+2017/01/26 15:28:00 [notice] 14558#0: worker process 14666 exited with code 0
+2017/01/26 15:28:00 [notice] 14558#0: signal 29 (SIGIO) received
+2017/01/26 15:28:25 [info] 14669#0: *11 no user/password was provided for basic authentication, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/26 15:28:37 [info] 14669#0: *12 client closed connection while waiting for request, client: 192.168.122.1, server: 192.168.122.13:8080
+2017/01/26 15:39:52 [notice] 14669#0: signal 3 (SIGQUIT) received, shutting down
+2017/01/26 15:39:52 [info] 14669#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/26 15:39:52 [notice] 14669#0: gracefully shutting down
+2017/01/26 15:39:52 [notice] 14669#0: exiting
+2017/01/26 15:39:52 [notice] 14669#0: exit
+2017/01/26 15:39:52 [notice] 14558#0: signal 17 (SIGCHLD) received
+2017/01/26 15:39:52 [notice] 14558#0: worker process 14669 exited with code 0
+2017/01/26 15:39:52 [notice] 14558#0: signal 3 (SIGQUIT) received, shutting down
+2017/01/26 15:39:52 [notice] 14558#0: exit
+2017/01/26 15:40:02 [notice] 14841#0: using the "epoll" event method
+2017/01/26 15:40:02 [notice] 14841#0: nginx/1.10.2
+2017/01/26 15:40:02 [notice] 14841#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) 
+2017/01/26 15:40:02 [notice] 14841#0: OS: Linux 3.10.0-514.2.2.el7.x86_64
+2017/01/26 15:40:02 [notice] 14841#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2017/01/26 15:40:02 [notice] 14842#0: start worker processes
+2017/01/26 15:40:02 [notice] 14842#0: start worker process 14844
+2017/01/26 15:40:28 [notice] 14844#0: signal 3 (SIGQUIT) received, shutting down
+2017/01/26 15:40:28 [info] 14844#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/26 15:40:28 [notice] 14844#0: gracefully shutting down
+2017/01/26 15:40:28 [notice] 14844#0: exiting
+2017/01/26 15:40:28 [notice] 14844#0: exit
+2017/01/26 15:40:28 [notice] 14842#0: signal 17 (SIGCHLD) received
+2017/01/26 15:40:28 [notice] 14842#0: worker process 14844 exited with code 0
+2017/01/26 15:40:28 [notice] 14842#0: signal 3 (SIGQUIT) received, shutting down
+2017/01/26 15:40:28 [notice] 14842#0: exit
+2017/01/26 15:40:42 [notice] 14925#0: using the "epoll" event method
+2017/01/26 15:40:42 [notice] 14925#0: nginx/1.10.2
+2017/01/26 15:40:42 [notice] 14925#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) 
+2017/01/26 15:40:42 [notice] 14925#0: OS: Linux 3.10.0-514.2.2.el7.x86_64
+2017/01/26 15:40:42 [notice] 14925#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2017/01/26 15:40:42 [notice] 14926#0: start worker processes
+2017/01/26 15:40:42 [notice] 14926#0: start worker process 14927
