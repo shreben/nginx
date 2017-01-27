@@ -202,3 +202,688 @@
 2017/01/27 11:03:25 [notice] 1207#0: exit
 =======
 >>>>>>> 3d80a4d50fbe853dded7f2814c2be20d00861da4
+2017/01/27 11:28:05 [notice] 2206#0: using the "epoll" event method
+2017/01/27 11:28:05 [notice] 2206#0: nginx/1.10.2
+2017/01/27 11:28:05 [notice] 2206#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) 
+2017/01/27 11:28:05 [notice] 2206#0: OS: Linux 3.10.0-514.2.2.el7.x86_64
+2017/01/27 11:28:05 [notice] 2206#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2017/01/27 11:28:05 [notice] 2207#0: start worker processes
+2017/01/27 11:28:05 [notice] 2207#0: start worker process 2209
+2017/01/27 11:28:30 [info] 2209#0: *1 no user/password was provided for basic authentication, client: 192.168.122.1, server: 192.168.122.13, request: "GET /admin HTTP/1.1", host: "192.168.122.13:8080", referrer: "http://192.168.122.13:8080/"
+2017/01/27 12:00:04 [error] 2209#0: *3 open() "/home/shreben/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.13, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.13"
+2017/01/27 12:00:04 [error] 2209#0: *3 open() "/home/shreben/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.13, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.13"
+2017/01/27 12:37:00 [emerg] 2374#0: BIO_new_file("/home/shreben/nginx/conf/conf/server.crt") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/home/shreben/nginx/conf/conf/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2017/01/27 12:37:36 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 12:37:36 [notice] 2207#0: reconfiguring
+2017/01/27 12:37:36 [notice] 2209#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 12:37:36 [info] 2209#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 12:37:36 [notice] 2207#0: using the "epoll" event method
+2017/01/27 12:37:36 [notice] 2207#0: start worker processes
+2017/01/27 12:37:36 [notice] 2207#0: start worker process 2396
+2017/01/27 12:37:36 [notice] 2209#0: gracefully shutting down
+2017/01/27 12:37:36 [notice] 2209#0: exiting
+2017/01/27 12:37:36 [notice] 2209#0: exit
+2017/01/27 12:37:36 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 12:37:36 [notice] 2207#0: worker process 2209 exited with code 0
+2017/01/27 12:37:36 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 12:37:47 [info] 2396#0: *5 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 192.168.122.1, server: 0.0.0.0:8443
+2017/01/27 12:37:59 [info] 2396#0: *6 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 192.168.122.1, server: 0.0.0.0:8443
+2017/01/27 12:38:15 [error] 2396#0: *7 open() "/home/shreben/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.13, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.13"
+2017/01/27 12:43:32 [emerg] 2415#0: unexpected "}" in /home/shreben/nginx/conf/vhosts/lb.conf:5
+2017/01/27 12:43:51 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 12:43:51 [notice] 2207#0: reconfiguring
+2017/01/27 12:43:51 [notice] 2396#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 12:43:51 [info] 2396#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 12:43:51 [notice] 2207#0: using the "epoll" event method
+2017/01/27 12:43:51 [notice] 2207#0: start worker processes
+2017/01/27 12:43:51 [notice] 2207#0: start worker process 2430
+2017/01/27 12:43:51 [notice] 2396#0: gracefully shutting down
+2017/01/27 12:43:51 [notice] 2396#0: exiting
+2017/01/27 12:43:51 [notice] 2396#0: exit
+2017/01/27 12:43:51 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 12:43:51 [notice] 2207#0: worker process 2396 exited with code 0
+2017/01/27 12:43:51 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 12:44:10 [info] 2430#0: *8 client 192.168.122.1 closed keepalive connection
+2017/01/27 12:44:13 [info] 2430#0: *10 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 192.168.122.1, server: 0.0.0.0:8443
+2017/01/27 12:45:14 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 12:45:14 [notice] 2207#0: reconfiguring
+2017/01/27 12:45:14 [notice] 2430#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 12:45:14 [info] 2430#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 12:45:14 [notice] 2207#0: using the "epoll" event method
+2017/01/27 12:45:14 [notice] 2207#0: start worker processes
+2017/01/27 12:45:14 [notice] 2207#0: start worker process 2444
+2017/01/27 12:45:14 [notice] 2430#0: gracefully shutting down
+2017/01/27 12:45:14 [notice] 2430#0: exiting
+2017/01/27 12:45:14 [notice] 2430#0: exit
+2017/01/27 12:45:14 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 12:45:14 [notice] 2207#0: worker process 2430 exited with code 0
+2017/01/27 12:45:14 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 12:51:08 [emerg] 2465#0: host not found in upstream "backend" in /home/shreben/nginx/conf/vhosts/lb.conf:14
+2017/01/27 12:52:02 [emerg] 2476#0: invalid parameter "weight" in /home/shreben/nginx/conf/upstreams/web.conf:2
+2017/01/27 12:52:35 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 12:52:35 [notice] 2207#0: reconfiguring
+2017/01/27 12:52:35 [notice] 2444#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 12:52:35 [info] 2444#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 12:52:35 [notice] 2207#0: using the "epoll" event method
+2017/01/27 12:52:35 [notice] 2207#0: start worker processes
+2017/01/27 12:52:35 [notice] 2207#0: start worker process 2490
+2017/01/27 12:52:35 [notice] 2444#0: gracefully shutting down
+2017/01/27 12:52:35 [notice] 2444#0: exiting
+2017/01/27 12:52:35 [notice] 2444#0: exit
+2017/01/27 12:52:35 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 12:52:35 [notice] 2207#0: worker process 2444 exited with code 0
+2017/01/27 12:52:35 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 12:52:56 [info] 2490#0: *13 no user/password was provided for basic authentication, client: 192.168.122.1, server: 192.168.122.13, request: "GET /admin HTTP/1.1", host: "192.168.122.13", referrer: "https://192.168.122.13/"
+2017/01/27 13:05:03 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 13:05:03 [notice] 2207#0: reconfiguring
+2017/01/27 13:05:03 [notice] 2490#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 13:05:03 [info] 2490#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 13:05:03 [notice] 2207#0: using the "epoll" event method
+2017/01/27 13:05:03 [notice] 2207#0: start worker processes
+2017/01/27 13:05:03 [notice] 2207#0: start worker process 2532
+2017/01/27 13:05:03 [notice] 2490#0: gracefully shutting down
+2017/01/27 13:05:03 [notice] 2490#0: exiting
+2017/01/27 13:05:03 [notice] 2490#0: exit
+2017/01/27 13:05:03 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 13:05:03 [notice] 2207#0: worker process 2490 exited with code 0
+2017/01/27 13:05:03 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 13:17:38 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 13:17:38 [notice] 2207#0: reconfiguring
+2017/01/27 13:17:38 [notice] 2532#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 13:17:38 [info] 2532#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 13:17:38 [notice] 2207#0: using the "epoll" event method
+2017/01/27 13:17:38 [notice] 2207#0: start worker processes
+2017/01/27 13:17:38 [notice] 2207#0: start worker process 2556
+2017/01/27 13:17:38 [notice] 2532#0: gracefully shutting down
+2017/01/27 13:17:38 [notice] 2532#0: exiting
+2017/01/27 13:17:38 [notice] 2532#0: exit
+2017/01/27 13:17:38 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 13:17:38 [notice] 2207#0: worker process 2532 exited with code 0
+2017/01/27 13:17:38 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 13:27:41 [notice] 2556#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 13:27:41 [info] 2556#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 13:27:41 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 13:27:41 [notice] 2207#0: reconfiguring
+2017/01/27 13:27:41 [notice] 2207#0: using the "epoll" event method
+2017/01/27 13:27:41 [notice] 2207#0: start worker processes
+2017/01/27 13:27:41 [notice] 2207#0: start worker process 2582
+2017/01/27 13:27:41 [notice] 2556#0: gracefully shutting down
+2017/01/27 13:27:41 [notice] 2556#0: exiting
+2017/01/27 13:27:41 [notice] 2556#0: exit
+2017/01/27 13:27:41 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 13:27:41 [notice] 2207#0: worker process 2556 exited with code 0
+2017/01/27 13:27:41 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 13:35:23 [info] 2582#0: *51 client 192.168.122.1 closed keepalive connection
+2017/01/27 13:35:57 [info] 2582#0: *52 client 192.168.122.1 closed keepalive connection
+2017/01/27 13:36:09 [info] 2582#0: *53 SSL_do_handshake() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while SSL handshaking, client: 192.168.122.1, server: 0.0.0.0:8443
+2017/01/27 13:36:33 [info] 2582#0: *55 SSL_do_handshake() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while SSL handshaking, client: 192.168.122.1, server: 0.0.0.0:8443
+2017/01/27 13:36:33 [info] 2582#0: *54 client 192.168.122.1 closed keepalive connection
+2017/01/27 13:36:54 [info] 2582#0: *56 client 192.168.122.1 closed keepalive connection
+2017/01/27 13:36:54 [info] 2582#0: *57 client 192.168.122.1 closed keepalive connection
+2017/01/27 13:37:21 [info] 2582#0: *59 client 192.168.122.1 closed keepalive connection
+2017/01/27 13:37:21 [info] 2582#0: *60 client 192.168.122.1 closed keepalive connection
+2017/01/27 13:37:48 [info] 2582#0: *62 client 192.168.122.1 closed keepalive connection
+2017/01/27 14:33:51 [notice] 2582#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 14:33:51 [info] 2582#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 14:33:51 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 14:33:51 [notice] 2207#0: reconfiguring
+2017/01/27 14:33:51 [notice] 2207#0: using the "epoll" event method
+2017/01/27 14:33:51 [notice] 2207#0: start worker processes
+2017/01/27 14:33:51 [notice] 2207#0: start worker process 2671
+2017/01/27 14:33:51 [notice] 2582#0: gracefully shutting down
+2017/01/27 14:33:51 [notice] 2582#0: exiting
+2017/01/27 14:33:51 [notice] 2582#0: exit
+2017/01/27 14:33:51 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 14:33:51 [notice] 2207#0: worker process 2582 exited with code 0
+2017/01/27 14:33:51 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 14:34:45 [warn] 2671#0: *70 an upstream response is buffered to a temporary file /home/shreben/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 192.168.122.1, server: 192.168.122.13, request: "GET /pictures/01.gif HTTP/1.1", upstream: "http://192.168.122.11:8080/pictures/01.gif", host: "192.168.122.13", referrer: "https://192.168.122.13/"
+2017/01/27 14:36:56 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 14:36:56 [notice] 2207#0: reconfiguring
+2017/01/27 14:36:56 [notice] 2671#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 14:36:56 [info] 2671#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 14:36:56 [notice] 2207#0: using the "epoll" event method
+2017/01/27 14:36:56 [notice] 2207#0: start worker processes
+2017/01/27 14:36:56 [notice] 2207#0: start worker process 2686
+2017/01/27 14:36:56 [notice] 2671#0: gracefully shutting down
+2017/01/27 14:36:56 [notice] 2671#0: exiting
+2017/01/27 14:36:56 [notice] 2671#0: exit
+2017/01/27 14:36:56 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 14:36:56 [notice] 2207#0: worker process 2671 exited with code 0
+2017/01/27 14:36:56 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 14:37:40 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 14:37:40 [notice] 2207#0: reconfiguring
+2017/01/27 14:37:40 [notice] 2686#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 14:37:40 [info] 2686#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 14:37:40 [notice] 2207#0: using the "epoll" event method
+2017/01/27 14:37:40 [notice] 2207#0: start worker processes
+2017/01/27 14:37:40 [notice] 2207#0: start worker process 2700
+2017/01/27 14:37:40 [notice] 2686#0: gracefully shutting down
+2017/01/27 14:37:40 [notice] 2686#0: exiting
+2017/01/27 14:37:40 [notice] 2686#0: exit
+2017/01/27 14:37:40 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 14:37:40 [notice] 2207#0: worker process 2686 exited with code 0
+2017/01/27 14:37:40 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 14:40:26 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 14:40:26 [notice] 2207#0: reconfiguring
+2017/01/27 14:40:26 [notice] 2700#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 14:40:26 [info] 2700#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 14:40:26 [notice] 2207#0: using the "epoll" event method
+2017/01/27 14:40:26 [notice] 2207#0: start worker processes
+2017/01/27 14:40:26 [notice] 2207#0: start worker process 2722
+2017/01/27 14:40:26 [notice] 2700#0: gracefully shutting down
+2017/01/27 14:40:26 [notice] 2700#0: exiting
+2017/01/27 14:40:26 [notice] 2700#0: exit
+2017/01/27 14:40:26 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 14:40:26 [notice] 2207#0: worker process 2700 exited with code 0
+2017/01/27 14:40:26 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 14:46:08 [notice] 2722#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 14:46:08 [info] 2722#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 14:46:08 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 14:46:08 [notice] 2207#0: reconfiguring
+2017/01/27 14:46:08 [notice] 2207#0: using the "epoll" event method
+2017/01/27 14:46:08 [notice] 2207#0: start worker processes
+2017/01/27 14:46:08 [notice] 2207#0: start worker process 2737
+2017/01/27 14:46:08 [notice] 2722#0: gracefully shutting down
+2017/01/27 14:46:08 [notice] 2722#0: exiting
+2017/01/27 14:46:08 [notice] 2722#0: exit
+2017/01/27 14:46:08 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 14:46:08 [notice] 2207#0: worker process 2722 exited with code 0
+2017/01/27 14:46:08 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 14:46:18 [warn] 2737#0: *95 an upstream response is buffered to a temporary file /home/shreben/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 192.168.122.1, server: 192.168.122.13, request: "GET /pictures/01.gif HTTP/1.1", upstream: "http://192.168.122.11:8080/pictures/01.gif", host: "192.168.122.13", referrer: "https://192.168.122.13/"
+2017/01/27 14:46:48 [notice] 2737#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 14:46:48 [info] 2737#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 14:46:48 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 14:46:48 [notice] 2207#0: reconfiguring
+2017/01/27 14:46:48 [notice] 2207#0: using the "epoll" event method
+2017/01/27 14:46:48 [notice] 2207#0: start worker processes
+2017/01/27 14:46:48 [notice] 2207#0: start worker process 2751
+2017/01/27 14:46:48 [notice] 2737#0: gracefully shutting down
+2017/01/27 14:46:48 [notice] 2737#0: exiting
+2017/01/27 14:46:48 [notice] 2737#0: exit
+2017/01/27 14:46:48 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 14:46:48 [notice] 2207#0: worker process 2737 exited with code 0
+2017/01/27 14:46:48 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 14:59:06 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 14:59:06 [notice] 2207#0: reconfiguring
+2017/01/27 14:59:06 [notice] 2751#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 14:59:06 [info] 2751#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 14:59:06 [notice] 2207#0: using the "epoll" event method
+2017/01/27 14:59:06 [notice] 2207#0: start worker processes
+2017/01/27 14:59:06 [notice] 2207#0: start worker process 2775
+2017/01/27 14:59:06 [notice] 2751#0: gracefully shutting down
+2017/01/27 14:59:06 [notice] 2751#0: exiting
+2017/01/27 14:59:06 [notice] 2751#0: exit
+2017/01/27 14:59:06 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 14:59:06 [notice] 2207#0: worker process 2751 exited with code 0
+2017/01/27 14:59:06 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 15:06:12 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 15:06:12 [notice] 2207#0: reconfiguring
+2017/01/27 15:06:12 [notice] 2775#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 15:06:12 [info] 2775#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 15:06:12 [notice] 2207#0: using the "epoll" event method
+2017/01/27 15:06:12 [notice] 2207#0: start worker processes
+2017/01/27 15:06:12 [notice] 2207#0: start worker process 2811
+2017/01/27 15:06:12 [notice] 2775#0: gracefully shutting down
+2017/01/27 15:06:12 [notice] 2775#0: exiting
+2017/01/27 15:06:12 [notice] 2775#0: exit
+2017/01/27 15:06:12 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 15:06:12 [notice] 2207#0: worker process 2775 exited with code 0
+2017/01/27 15:06:12 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 15:12:00 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 15:12:00 [notice] 2207#0: reconfiguring
+2017/01/27 15:12:00 [notice] 2811#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 15:12:00 [info] 2811#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 15:12:00 [notice] 2207#0: using the "epoll" event method
+2017/01/27 15:12:00 [notice] 2207#0: start worker processes
+2017/01/27 15:12:00 [notice] 2207#0: start worker process 2832
+2017/01/27 15:12:00 [notice] 2811#0: gracefully shutting down
+2017/01/27 15:12:00 [notice] 2811#0: exiting
+2017/01/27 15:12:00 [notice] 2811#0: exit
+2017/01/27 15:12:00 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 15:12:00 [notice] 2207#0: worker process 2811 exited with code 0
+2017/01/27 15:12:00 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 15:23:00 [notice] 2832#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 15:23:00 [info] 2832#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 15:23:00 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 15:23:00 [notice] 2207#0: reconfiguring
+2017/01/27 15:23:00 [notice] 2207#0: using the "epoll" event method
+2017/01/27 15:23:00 [notice] 2207#0: start worker processes
+2017/01/27 15:23:00 [notice] 2207#0: start worker process 2854
+2017/01/27 15:23:00 [notice] 2832#0: gracefully shutting down
+2017/01/27 15:23:00 [notice] 2832#0: exiting
+2017/01/27 15:23:00 [notice] 2832#0: exit
+2017/01/27 15:23:00 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 15:23:00 [notice] 2207#0: worker process 2832 exited with code 0
+2017/01/27 15:23:00 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 15:27:01 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 15:27:01 [notice] 2207#0: reconfiguring
+2017/01/27 15:27:01 [notice] 2854#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 15:27:01 [info] 2854#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 15:27:01 [notice] 2207#0: using the "epoll" event method
+2017/01/27 15:27:01 [notice] 2207#0: start worker processes
+2017/01/27 15:27:01 [notice] 2207#0: start worker process 2869
+2017/01/27 15:27:01 [notice] 2854#0: gracefully shutting down
+2017/01/27 15:27:01 [notice] 2854#0: exiting
+2017/01/27 15:27:01 [notice] 2854#0: exit
+2017/01/27 15:27:01 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 15:27:01 [notice] 2207#0: worker process 2854 exited with code 0
+2017/01/27 15:27:01 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 15:31:00 [notice] 2869#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 15:31:00 [info] 2869#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 15:31:00 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 15:31:00 [notice] 2207#0: reconfiguring
+2017/01/27 15:31:00 [notice] 2207#0: using the "epoll" event method
+2017/01/27 15:31:00 [notice] 2207#0: start worker processes
+2017/01/27 15:31:00 [notice] 2207#0: start worker process 2892
+2017/01/27 15:31:00 [notice] 2869#0: gracefully shutting down
+2017/01/27 15:31:00 [notice] 2869#0: exiting
+2017/01/27 15:31:00 [notice] 2869#0: exit
+2017/01/27 15:31:00 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 15:31:00 [notice] 2207#0: worker process 2869 exited with code 0
+2017/01/27 15:31:00 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 15:31:47 [warn] 2892#0: *168 an upstream response is buffered to a temporary file /home/shreben/nginx/proxy_temp/3/00/0000000003 while reading upstream, client: 192.168.122.1, server: 192.168.122.13, request: "GET /pictures/01.gif HTTP/1.1", upstream: "http://192.168.122.11:8080/pictures/01.gif", host: "192.168.122.13", referrer: "https://192.168.122.13/"
+2017/01/27 15:44:02 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 15:44:02 [notice] 2207#0: reconfiguring
+2017/01/27 15:44:02 [notice] 2892#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 15:44:02 [info] 2892#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 15:44:02 [notice] 2207#0: using the "epoll" event method
+2017/01/27 15:44:02 [notice] 2207#0: start worker processes
+2017/01/27 15:44:02 [notice] 2207#0: start worker process 2915
+2017/01/27 15:44:02 [notice] 2892#0: gracefully shutting down
+2017/01/27 15:44:02 [notice] 2892#0: exiting
+2017/01/27 15:44:02 [notice] 2892#0: exit
+2017/01/27 15:44:02 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 15:44:02 [notice] 2207#0: worker process 2892 exited with code 0
+2017/01/27 15:44:02 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 15:47:12 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 15:47:12 [notice] 2207#0: reconfiguring
+2017/01/27 15:47:12 [notice] 2915#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 15:47:12 [info] 2915#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 15:47:12 [notice] 2207#0: using the "epoll" event method
+2017/01/27 15:47:12 [notice] 2207#0: start worker processes
+2017/01/27 15:47:12 [notice] 2207#0: start worker process 2930
+2017/01/27 15:47:12 [notice] 2915#0: gracefully shutting down
+2017/01/27 15:47:12 [notice] 2915#0: exiting
+2017/01/27 15:47:12 [notice] 2915#0: exit
+2017/01/27 15:47:12 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 15:47:12 [notice] 2207#0: worker process 2915 exited with code 0
+2017/01/27 15:47:12 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 15:53:02 [info] 2930#0: *193 client 192.168.122.1 closed keepalive connection
+2017/01/27 15:59:02 [info] 2930#0: *258 client 192.168.122.1 closed keepalive connection
+2017/01/27 15:59:02 [info] 2930#0: *259 client 192.168.122.1 closed keepalive connection
+2017/01/27 15:59:10 [info] 2930#0: *261 client 192.168.122.1 closed keepalive connection
+2017/01/27 15:59:10 [info] 2930#0: *262 client 192.168.122.1 closed keepalive connection
+2017/01/27 15:59:46 [info] 2930#0: *264 client 192.168.122.1 closed keepalive connection
+2017/01/27 16:06:37 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 16:06:37 [notice] 2207#0: reconfiguring
+2017/01/27 16:06:37 [notice] 2930#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 16:06:37 [info] 2930#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 16:06:37 [notice] 2207#0: using the "epoll" event method
+2017/01/27 16:06:37 [notice] 2207#0: start worker processes
+2017/01/27 16:06:37 [notice] 2207#0: start worker process 2978
+2017/01/27 16:06:37 [notice] 2930#0: gracefully shutting down
+2017/01/27 16:06:37 [notice] 2930#0: exiting
+2017/01/27 16:06:37 [notice] 2930#0: exit
+2017/01/27 16:06:37 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 16:06:37 [notice] 2207#0: worker process 2930 exited with code 0
+2017/01/27 16:06:37 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 16:08:09 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 16:08:09 [notice] 2207#0: reconfiguring
+2017/01/27 16:08:09 [notice] 2978#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 16:08:09 [info] 2978#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 16:08:09 [notice] 2207#0: using the "epoll" event method
+2017/01/27 16:08:09 [notice] 2207#0: start worker processes
+2017/01/27 16:08:09 [notice] 2207#0: start worker process 2992
+2017/01/27 16:08:09 [notice] 2978#0: gracefully shutting down
+2017/01/27 16:08:09 [notice] 2978#0: exiting
+2017/01/27 16:08:09 [notice] 2978#0: exit
+2017/01/27 16:08:09 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 16:08:09 [notice] 2207#0: worker process 2978 exited with code 0
+2017/01/27 16:08:09 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 16:14:46 [notice] 2992#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 16:14:46 [info] 2992#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 16:14:46 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 16:14:46 [notice] 2207#0: reconfiguring
+2017/01/27 16:14:46 [notice] 2207#0: using the "epoll" event method
+2017/01/27 16:14:46 [notice] 2207#0: start worker processes
+2017/01/27 16:14:46 [notice] 2207#0: start worker process 3016
+2017/01/27 16:14:46 [notice] 2992#0: gracefully shutting down
+2017/01/27 16:14:46 [notice] 2992#0: exiting
+2017/01/27 16:14:46 [notice] 2992#0: exit
+2017/01/27 16:14:46 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 16:14:46 [notice] 2207#0: worker process 2992 exited with code 0
+2017/01/27 16:14:46 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 16:15:21 [notice] 3016#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 16:15:21 [info] 3016#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 16:15:21 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 16:15:21 [notice] 2207#0: reconfiguring
+2017/01/27 16:15:21 [notice] 2207#0: using the "epoll" event method
+2017/01/27 16:15:21 [notice] 2207#0: start worker processes
+2017/01/27 16:15:21 [notice] 2207#0: start worker process 3030
+2017/01/27 16:15:21 [notice] 3016#0: gracefully shutting down
+2017/01/27 16:15:21 [notice] 3016#0: exiting
+2017/01/27 16:15:21 [notice] 3016#0: exit
+2017/01/27 16:15:21 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 16:15:21 [notice] 2207#0: worker process 3016 exited with code 0
+2017/01/27 16:15:21 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 16:24:44 [emerg] 3054#0: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in /home/shreben/nginx/conf/vhosts/lb.conf:22
+2017/01/27 16:25:22 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 16:25:22 [notice] 2207#0: reconfiguring
+2017/01/27 16:25:22 [notice] 3030#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 16:25:22 [info] 3030#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 16:25:22 [notice] 2207#0: using the "epoll" event method
+2017/01/27 16:25:22 [notice] 2207#0: start worker processes
+2017/01/27 16:25:22 [notice] 2207#0: start worker process 3068
+2017/01/27 16:25:22 [notice] 3030#0: gracefully shutting down
+2017/01/27 16:25:22 [notice] 3030#0: exiting
+2017/01/27 16:25:22 [notice] 3030#0: exit
+2017/01/27 16:25:22 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 16:25:22 [notice] 2207#0: worker process 3030 exited with code 0
+2017/01/27 16:25:22 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 16:25:29 [info] 3068#0: *301 client 192.168.122.1 closed keepalive connection
+2017/01/27 16:42:08 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 16:42:08 [notice] 2207#0: reconfiguring
+2017/01/27 16:42:08 [notice] 3068#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 16:42:08 [info] 3068#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 16:42:08 [notice] 2207#0: using the "epoll" event method
+2017/01/27 16:42:08 [notice] 2207#0: start worker processes
+2017/01/27 16:42:08 [notice] 2207#0: start worker process 3104
+2017/01/27 16:42:08 [notice] 3068#0: gracefully shutting down
+2017/01/27 16:42:08 [notice] 3068#0: exiting
+2017/01/27 16:42:08 [notice] 3068#0: exit
+2017/01/27 16:42:08 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 16:42:08 [notice] 2207#0: worker process 3068 exited with code 0
+2017/01/27 16:42:08 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 16:48:23 [notice] 3104#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 16:48:23 [info] 3104#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 16:48:23 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 16:48:23 [notice] 2207#0: reconfiguring
+2017/01/27 16:48:23 [notice] 2207#0: using the "epoll" event method
+2017/01/27 16:48:23 [notice] 2207#0: start worker processes
+2017/01/27 16:48:23 [notice] 2207#0: start worker process 3120
+2017/01/27 16:48:23 [notice] 3104#0: gracefully shutting down
+2017/01/27 16:48:23 [notice] 3104#0: exiting
+2017/01/27 16:48:23 [notice] 3104#0: exit
+2017/01/27 16:48:23 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 16:48:23 [notice] 2207#0: worker process 3104 exited with code 0
+2017/01/27 16:48:23 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 16:52:22 [notice] 3120#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 16:52:22 [info] 3120#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 16:52:22 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 16:52:22 [notice] 2207#0: reconfiguring
+2017/01/27 16:52:22 [notice] 2207#0: using the "epoll" event method
+2017/01/27 16:52:22 [notice] 2207#0: start worker processes
+2017/01/27 16:52:22 [notice] 2207#0: start worker process 3143
+2017/01/27 16:52:22 [notice] 3120#0: gracefully shutting down
+2017/01/27 16:52:22 [notice] 3120#0: exiting
+2017/01/27 16:52:22 [notice] 3120#0: exit
+2017/01/27 16:52:22 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 16:52:22 [notice] 2207#0: worker process 3120 exited with code 0
+2017/01/27 16:52:22 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 16:53:29 [notice] 3143#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 16:53:29 [info] 3143#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 16:53:29 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 16:53:29 [notice] 2207#0: reconfiguring
+2017/01/27 16:53:29 [notice] 2207#0: using the "epoll" event method
+2017/01/27 16:53:29 [notice] 2207#0: start worker processes
+2017/01/27 16:53:29 [notice] 2207#0: start worker process 3157
+2017/01/27 16:53:30 [notice] 3143#0: gracefully shutting down
+2017/01/27 16:53:30 [notice] 3143#0: exiting
+2017/01/27 16:53:30 [notice] 3143#0: exit
+2017/01/27 16:53:30 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 16:53:30 [notice] 2207#0: worker process 3143 exited with code 0
+2017/01/27 16:53:30 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 17:03:22 [emerg] 3191#0: invalid number of arguments in "proxy_intercept_errors" directive in /home/shreben/nginx/conf/vhosts/lb.conf:40
+2017/01/27 17:03:55 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 17:03:55 [notice] 2207#0: reconfiguring
+2017/01/27 17:03:55 [notice] 3157#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 17:03:55 [info] 3157#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 17:03:55 [notice] 2207#0: using the "epoll" event method
+2017/01/27 17:03:55 [notice] 2207#0: start worker processes
+2017/01/27 17:03:55 [notice] 2207#0: start worker process 3205
+2017/01/27 17:03:55 [notice] 3157#0: gracefully shutting down
+2017/01/27 17:03:55 [notice] 3157#0: exiting
+2017/01/27 17:03:55 [notice] 3157#0: exit
+2017/01/27 17:03:55 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 17:03:55 [notice] 2207#0: worker process 3157 exited with code 0
+2017/01/27 17:03:55 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 17:05:13 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 17:05:13 [notice] 2207#0: reconfiguring
+2017/01/27 17:05:13 [notice] 3205#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 17:05:13 [info] 3205#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 17:05:13 [notice] 2207#0: using the "epoll" event method
+2017/01/27 17:05:13 [notice] 2207#0: start worker processes
+2017/01/27 17:05:13 [notice] 2207#0: start worker process 3221
+2017/01/27 17:05:13 [notice] 3205#0: gracefully shutting down
+2017/01/27 17:05:13 [notice] 3205#0: exiting
+2017/01/27 17:05:13 [notice] 3205#0: exit
+2017/01/27 17:05:13 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 17:05:13 [notice] 2207#0: worker process 3205 exited with code 0
+2017/01/27 17:05:13 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 17:06:46 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 17:06:46 [notice] 2207#0: reconfiguring
+2017/01/27 17:06:46 [notice] 3221#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 17:06:46 [info] 3221#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 17:06:46 [notice] 2207#0: using the "epoll" event method
+2017/01/27 17:06:46 [notice] 2207#0: start worker processes
+2017/01/27 17:06:46 [notice] 2207#0: start worker process 3235
+2017/01/27 17:06:46 [notice] 3221#0: gracefully shutting down
+2017/01/27 17:06:46 [notice] 3221#0: exiting
+2017/01/27 17:06:46 [notice] 3221#0: exit
+2017/01/27 17:06:46 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 17:06:46 [notice] 2207#0: worker process 3221 exited with code 0
+2017/01/27 17:06:46 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 17:06:56 [info] 3235#0: *338 no user/password was provided for basic authentication, client: 192.168.122.1, server: 192.168.122.13, request: "GET /admin HTTP/1.1", host: "192.168.122.13", referrer: "https://192.168.122.13/"
+2017/01/27 17:18:16 [emerg] 3255#0: unknown directive "health_check" in /home/shreben/nginx/conf/vhosts/lb.conf:15
+2017/01/27 17:19:35 [emerg] 3266#0: unknown directive "health_check" in /home/shreben/nginx/conf/vhosts/lb.conf:15
+2017/01/27 17:24:35 [emerg] 3289#0: unknown directive "sticky" in /home/shreben/nginx/conf/upstreams/web.conf:4
+2017/01/27 17:25:21 [emerg] 3301#0: unknown directive "sticky" in /home/shreben/nginx/conf/upstreams/web.conf:4
+2017/01/27 17:29:43 [emerg] 3314#0: unknown directive "sticky" in /home/shreben/nginx/conf/upstreams/web.conf:4
+2017/01/27 17:29:53 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 17:29:53 [notice] 2207#0: reconfiguring
+2017/01/27 17:29:53 [notice] 3235#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 17:29:53 [info] 3235#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 17:29:53 [notice] 2207#0: using the "epoll" event method
+2017/01/27 17:29:53 [notice] 2207#0: start worker processes
+2017/01/27 17:29:53 [notice] 2207#0: start worker process 3328
+2017/01/27 17:29:53 [notice] 3235#0: gracefully shutting down
+2017/01/27 17:29:53 [notice] 3235#0: exiting
+2017/01/27 17:29:53 [notice] 3235#0: exit
+2017/01/27 17:29:53 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 17:29:53 [notice] 2207#0: worker process 3235 exited with code 0
+2017/01/27 17:29:53 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 17:29:58 [info] 3328#0: *351 client 192.168.122.1 closed keepalive connection
+2017/01/27 17:31:12 [info] 3328#0: *352 client 192.168.122.1 closed keepalive connection
+2017/01/27 17:32:46 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 17:32:46 [notice] 2207#0: reconfiguring
+2017/01/27 17:32:46 [notice] 3328#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 17:32:46 [info] 3328#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 17:32:46 [notice] 2207#0: using the "epoll" event method
+2017/01/27 17:32:46 [notice] 2207#0: start worker processes
+2017/01/27 17:32:46 [notice] 2207#0: start worker process 3350
+2017/01/27 17:32:46 [notice] 3328#0: gracefully shutting down
+2017/01/27 17:32:46 [notice] 3328#0: exiting
+2017/01/27 17:32:46 [notice] 3328#0: exit
+2017/01/27 17:32:46 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 17:32:46 [notice] 2207#0: worker process 3328 exited with code 0
+2017/01/27 17:32:46 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 17:38:00 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 17:38:00 [notice] 2207#0: reconfiguring
+2017/01/27 17:38:00 [notice] 3350#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 17:38:00 [info] 3350#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 17:38:00 [notice] 2207#0: using the "epoll" event method
+2017/01/27 17:38:00 [notice] 2207#0: start worker processes
+2017/01/27 17:38:00 [notice] 2207#0: start worker process 3366
+2017/01/27 17:38:00 [notice] 3350#0: gracefully shutting down
+2017/01/27 17:38:00 [notice] 3350#0: exiting
+2017/01/27 17:38:00 [notice] 3350#0: exit
+2017/01/27 17:38:00 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 17:38:00 [notice] 2207#0: worker process 3350 exited with code 0
+2017/01/27 17:38:00 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 17:38:51 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 17:38:51 [notice] 2207#0: reconfiguring
+2017/01/27 17:38:51 [notice] 3366#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 17:38:51 [info] 3366#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 17:38:51 [notice] 2207#0: using the "epoll" event method
+2017/01/27 17:38:51 [notice] 2207#0: start worker processes
+2017/01/27 17:38:51 [notice] 2207#0: start worker process 3380
+2017/01/27 17:38:51 [notice] 3366#0: gracefully shutting down
+2017/01/27 17:38:51 [notice] 3366#0: exiting
+2017/01/27 17:38:51 [notice] 3366#0: exit
+2017/01/27 17:38:51 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 17:38:51 [notice] 2207#0: worker process 3366 exited with code 0
+2017/01/27 17:38:51 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 17:39:48 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 17:39:48 [notice] 2207#0: reconfiguring
+2017/01/27 17:39:48 [notice] 3380#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 17:39:48 [info] 3380#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 17:39:48 [notice] 2207#0: using the "epoll" event method
+2017/01/27 17:39:48 [notice] 2207#0: start worker processes
+2017/01/27 17:39:48 [notice] 2207#0: start worker process 3395
+2017/01/27 17:39:48 [notice] 3380#0: gracefully shutting down
+2017/01/27 17:39:48 [notice] 3380#0: exiting
+2017/01/27 17:39:48 [notice] 3380#0: exit
+2017/01/27 17:39:48 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 17:39:48 [notice] 2207#0: worker process 3380 exited with code 0
+2017/01/27 17:39:48 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 17:41:14 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 17:41:14 [notice] 2207#0: reconfiguring
+2017/01/27 17:41:14 [notice] 3395#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 17:41:14 [info] 3395#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 17:41:14 [notice] 2207#0: using the "epoll" event method
+2017/01/27 17:41:14 [notice] 2207#0: start worker processes
+2017/01/27 17:41:14 [notice] 2207#0: start worker process 3416
+2017/01/27 17:41:14 [notice] 3395#0: gracefully shutting down
+2017/01/27 17:41:14 [notice] 3395#0: exiting
+2017/01/27 17:41:14 [notice] 3395#0: exit
+2017/01/27 17:41:14 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 17:41:14 [notice] 2207#0: worker process 3395 exited with code 0
+2017/01/27 17:41:14 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 17:43:52 [info] 3416#0: *388 client 192.168.122.1 closed keepalive connection
+2017/01/27 17:46:57 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 17:46:57 [notice] 2207#0: reconfiguring
+2017/01/27 17:46:57 [notice] 3416#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 17:46:57 [info] 3416#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 17:46:57 [notice] 2207#0: using the "epoll" event method
+2017/01/27 17:46:57 [notice] 2207#0: start worker processes
+2017/01/27 17:46:57 [notice] 2207#0: start worker process 3434
+2017/01/27 17:46:57 [notice] 3416#0: gracefully shutting down
+2017/01/27 17:46:57 [notice] 3416#0: exiting
+2017/01/27 17:46:57 [notice] 3416#0: exit
+2017/01/27 17:46:57 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 17:46:57 [notice] 2207#0: worker process 3416 exited with code 0
+2017/01/27 17:46:57 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 18:08:23 [notice] 3434#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 18:08:23 [info] 3434#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 18:08:23 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 18:08:23 [notice] 2207#0: reconfiguring
+2017/01/27 18:08:23 [notice] 2207#0: using the "epoll" event method
+2017/01/27 18:08:23 [notice] 2207#0: start worker processes
+2017/01/27 18:08:23 [notice] 2207#0: start worker process 3480
+2017/01/27 18:08:24 [notice] 3434#0: gracefully shutting down
+2017/01/27 18:08:24 [notice] 3434#0: exiting
+2017/01/27 18:08:24 [notice] 3434#0: exit
+2017/01/27 18:08:24 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 18:08:24 [notice] 2207#0: worker process 3434 exited with code 0
+2017/01/27 18:08:24 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 18:17:58 [emerg] 3500#0: invalid number of arguments in "proxy_set_header" directive in /home/shreben/nginx/conf/vhosts/lb.conf:21
+2017/01/27 18:18:43 [notice] 3480#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 18:18:43 [info] 3480#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 18:18:43 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 18:18:43 [notice] 2207#0: reconfiguring
+2017/01/27 18:18:43 [notice] 2207#0: using the "epoll" event method
+2017/01/27 18:18:43 [notice] 2207#0: start worker processes
+2017/01/27 18:18:43 [notice] 2207#0: start worker process 3514
+2017/01/27 18:18:43 [notice] 3480#0: gracefully shutting down
+2017/01/27 18:18:43 [notice] 3480#0: exiting
+2017/01/27 18:18:43 [notice] 3480#0: exit
+2017/01/27 18:18:43 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 18:18:43 [notice] 2207#0: worker process 3480 exited with code 0
+2017/01/27 18:18:43 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 18:20:39 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 18:20:39 [notice] 2207#0: reconfiguring
+2017/01/27 18:20:39 [notice] 3514#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 18:20:39 [info] 3514#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 18:20:39 [notice] 2207#0: using the "epoll" event method
+2017/01/27 18:20:39 [notice] 2207#0: start worker processes
+2017/01/27 18:20:39 [notice] 2207#0: start worker process 3536
+2017/01/27 18:20:40 [notice] 3514#0: gracefully shutting down
+2017/01/27 18:20:40 [notice] 3514#0: exiting
+2017/01/27 18:20:40 [notice] 3514#0: exit
+2017/01/27 18:20:40 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 18:20:40 [notice] 2207#0: worker process 3514 exited with code 0
+2017/01/27 18:20:40 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 18:23:03 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 18:23:03 [notice] 2207#0: reconfiguring
+2017/01/27 18:23:03 [notice] 3536#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 18:23:03 [info] 3536#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 18:23:03 [notice] 2207#0: using the "epoll" event method
+2017/01/27 18:23:03 [notice] 2207#0: start worker processes
+2017/01/27 18:23:03 [notice] 2207#0: start worker process 3550
+2017/01/27 18:23:04 [notice] 3536#0: gracefully shutting down
+2017/01/27 18:23:04 [notice] 3536#0: exiting
+2017/01/27 18:23:04 [notice] 3536#0: exit
+2017/01/27 18:23:04 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 18:23:04 [notice] 2207#0: worker process 3536 exited with code 0
+2017/01/27 18:23:04 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 18:24:22 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 18:24:22 [notice] 2207#0: reconfiguring
+2017/01/27 18:24:22 [notice] 3550#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 18:24:22 [info] 3550#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 18:24:22 [notice] 2207#0: using the "epoll" event method
+2017/01/27 18:24:22 [notice] 2207#0: start worker processes
+2017/01/27 18:24:22 [notice] 2207#0: start worker process 3564
+2017/01/27 18:24:22 [notice] 3550#0: gracefully shutting down
+2017/01/27 18:24:22 [notice] 3550#0: exiting
+2017/01/27 18:24:22 [notice] 3550#0: exit
+2017/01/27 18:24:22 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 18:24:22 [notice] 2207#0: worker process 3550 exited with code 0
+2017/01/27 18:24:22 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 18:25:39 [notice] 3564#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 18:25:39 [info] 3564#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 18:25:39 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 18:25:39 [notice] 2207#0: reconfiguring
+2017/01/27 18:25:39 [notice] 2207#0: using the "epoll" event method
+2017/01/27 18:25:39 [notice] 2207#0: start worker processes
+2017/01/27 18:25:39 [notice] 2207#0: start worker process 3579
+2017/01/27 18:25:39 [notice] 3564#0: gracefully shutting down
+2017/01/27 18:25:39 [notice] 3564#0: exiting
+2017/01/27 18:25:39 [notice] 3564#0: exit
+2017/01/27 18:25:39 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 18:25:39 [notice] 2207#0: worker process 3564 exited with code 0
+2017/01/27 18:25:39 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 18:26:41 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 18:26:41 [notice] 2207#0: reconfiguring
+2017/01/27 18:26:41 [notice] 3579#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 18:26:41 [info] 3579#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 18:26:41 [notice] 2207#0: using the "epoll" event method
+2017/01/27 18:26:41 [notice] 2207#0: start worker processes
+2017/01/27 18:26:41 [notice] 2207#0: start worker process 3593
+2017/01/27 18:26:41 [notice] 3579#0: gracefully shutting down
+2017/01/27 18:26:41 [notice] 3579#0: exiting
+2017/01/27 18:26:41 [notice] 3579#0: exit
+2017/01/27 18:26:41 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 18:26:41 [notice] 2207#0: worker process 3579 exited with code 0
+2017/01/27 18:26:41 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 18:27:10 [notice] 2207#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/27 18:27:10 [notice] 2207#0: reconfiguring
+2017/01/27 18:27:10 [notice] 3593#0: signal 1 (SIGHUP) received, ignoring
+2017/01/27 18:27:10 [info] 3593#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/27 18:27:10 [notice] 2207#0: using the "epoll" event method
+2017/01/27 18:27:10 [notice] 2207#0: start worker processes
+2017/01/27 18:27:10 [notice] 2207#0: start worker process 3607
+2017/01/27 18:27:10 [notice] 3593#0: gracefully shutting down
+2017/01/27 18:27:10 [notice] 3593#0: exiting
+2017/01/27 18:27:10 [notice] 3593#0: exit
+2017/01/27 18:27:10 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 18:27:10 [notice] 2207#0: worker process 3593 exited with code 0
+2017/01/27 18:27:10 [notice] 2207#0: signal 29 (SIGIO) received
+2017/01/27 18:27:31 [warn] 3607#0: *456 an upstream response is buffered to a temporary file /home/shreben/nginx/proxy_temp/4/00/0000000004 while reading upstream, client: 192.168.122.1, server: 192.168.122.13, request: "GET /pictures/01.gif HTTP/1.1", upstream: "http://192.168.122.1:8080/pictures/01.gif", host: "192.168.122.13", referrer: "https://192.168.122.13/"
+2017/01/27 18:32:57 [notice] 2207#0: signal 3 (SIGQUIT) received, shutting down
+2017/01/27 18:32:57 [notice] 3607#0: signal 3 (SIGQUIT) received, shutting down
+2017/01/27 18:32:57 [notice] 3607#0: gracefully shutting down
+2017/01/27 18:32:57 [notice] 3607#0: exiting
+2017/01/27 18:32:57 [notice] 3607#0: exit
+2017/01/27 18:32:57 [notice] 2207#0: signal 17 (SIGCHLD) received
+2017/01/27 18:32:57 [notice] 2207#0: worker process 3607 exited with code 0
+2017/01/27 18:32:57 [notice] 2207#0: exit
