@@ -124,6 +124,7 @@
 192.168.122.1 - admin [26/Jan/2017:15:40:15 +0300] "GET /pictures/01.gif HTTP/1.1" 304 0 "http://192.168.122.13:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0" "-"
 192.168.122.1 - admin [26/Jan/2017:15:40:57 +0300] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0" "-"
 192.168.122.1 - admin [26/Jan/2017:15:40:57 +0300] "GET /bodyback.png HTTP/1.1" 304 0 "http://192.168.122.13:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0" "-"
+<<<<<<< HEAD
 192.168.122.1 - - [27/Jan/2017:11:03:15 +0300] "GET / HTTP/1.1" 200 3970 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0" "-"
 192.168.122.1 - - [27/Jan/2017:11:03:15 +0300] "GET /bodyback.png HTTP/1.1" 200 15502 "http://192.168.122.13:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0" "-"
 192.168.122.1 - - [27/Jan/2017:11:03:15 +0300] "GET /favicon.ico HTTP/1.1" 404 29 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0" "-"
@@ -133,3 +134,5 @@
 192.168.122.1 - - [27/Jan/2017:11:03:17 +0300] "GET /status/format/json HTTP/1.1" 200 1094 "http://192.168.122.13:8080/status" "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0" "-"
 192.168.122.1 - - [27/Jan/2017:11:03:18 +0300] "GET /status/format/json HTTP/1.1" 200 1094 "http://192.168.122.13:8080/status" "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0" "-"
 192.168.122.1 - - [27/Jan/2017:11:03:19 +0300] "GET /status/format/json HTTP/1.1" 200 1094 "http://192.168.122.13:8080/status" "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0" "-"
+=======
+>>>>>>> 3d80a4d50fbe853dded7f2814c2be20d00861da4

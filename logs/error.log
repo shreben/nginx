@@ -182,6 +182,7 @@
 2017/01/26 15:40:42 [notice] 14925#0: getrlimit(RLIMIT_NOFILE): 1024:4096
 2017/01/26 15:40:42 [notice] 14926#0: start worker processes
 2017/01/26 15:40:42 [notice] 14926#0: start worker process 14927
+<<<<<<< HEAD
 2017/01/27 11:03:12 [notice] 1206#0: using the "epoll" event method
 2017/01/27 11:03:12 [notice] 1206#0: nginx/1.10.2
 2017/01/27 11:03:12 [notice] 1206#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) 
@@ -199,3 +200,5 @@
 2017/01/27 11:03:25 [notice] 1207#0: signal 17 (SIGCHLD) received
 2017/01/27 11:03:25 [notice] 1207#0: worker process 1208 exited with code 0
 2017/01/27 11:03:25 [notice] 1207#0: exit
+=======
+>>>>>>> 3d80a4d50fbe853dded7f2814c2be20d00861da4
